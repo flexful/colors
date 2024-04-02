@@ -64,7 +64,7 @@ const colors = {
       900: '#321e23',
       950: '#190f11'
     },
-    fushcia: {
+    fuchsia: {
       50: '#ffedf7',
       100: '#fedaee',
       200: '#feb5dd',
@@ -549,6 +549,6 @@ const colors = {
     white: '#FFFFFF'
 };
 
-const { red, crimson, grenadier, pink, rose, fushcia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white } = colors;
+const { red, crimson, grenadier, pink, rose, fuchsia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white } = colors;
 
-export { colors, red, crimson, grenadier, pink, rose, fushcia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };
+export { colors, red, crimson, grenadier, pink, rose, fuchsia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };
