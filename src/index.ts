@@ -551,4 +551,5 @@ const colors = {
 
 const { red, crimson, grenadier, pink, rose, fuchsia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white } = colors;
 
-export { colors, red, crimson, grenadier, pink, rose, fuchsia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };
+export default colors;
+export { red, crimson, grenadier, pink, rose, fuchsia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };

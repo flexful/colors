@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.white = exports.black = exports.snow = exports.cream = exports.dove = exports.silver = exports.gray = exports.peanut = exports.brown = exports.sky = exports.slate = exports.stone = exports.ocean = exports.aegean = exports.indigo = exports.navy = exports.lapis = exports.blue = exports.lime = exports.pear = exports.sage = exports.pistachio = exports.sea = exports.emerald = exports.green = exports.grape = exports.magenta = exports.lavender = exports.violet = exports.purple = exports.lemon = exports.yellow = exports.gold = exports.tiger = exports.amber = exports.orange = exports.strawberry = exports.peach = exports.fushcia = exports.rose = exports.pink = exports.grenadier = exports.crimson = exports.red = exports.colors = void 0;
+exports.white = exports.black = exports.snow = exports.cream = exports.dove = exports.silver = exports.gray = exports.peanut = exports.brown = exports.sky = exports.slate = exports.stone = exports.ocean = exports.aegean = exports.indigo = exports.navy = exports.lapis = exports.blue = exports.lime = exports.pear = exports.sage = exports.pistachio = exports.sea = exports.emerald = exports.green = exports.grape = exports.magenta = exports.lavender = exports.violet = exports.purple = exports.lemon = exports.yellow = exports.gold = exports.tiger = exports.amber = exports.orange = exports.strawberry = exports.peach = exports.fuchsia = exports.rose = exports.pink = exports.grenadier = exports.crimson = exports.red = void 0;
 var colors = {
     red: {
         50: '#ffe6e6',
@@ -67,7 +67,7 @@ var colors = {
         900: '#321e23',
         950: '#190f11'
     },
-    fushcia: {
+    fuchsia: {
         50: '#ffedf7',
         100: '#fedaee',
         200: '#feb5dd',
@@ -551,14 +551,13 @@ var colors = {
     black: '#000000',
     white: '#FFFFFF'
 };
-exports.colors = colors;
-var red = colors.red, crimson = colors.crimson, grenadier = colors.grenadier, pink = colors.pink, rose = colors.rose, fushcia = colors.fushcia, peach = colors.peach, strawberry = colors.strawberry, orange = colors.orange, amber = colors.amber, tiger = colors.tiger, gold = colors.gold, yellow = colors.yellow, lemon = colors.lemon, purple = colors.purple, violet = colors.violet, lavender = colors.lavender, magenta = colors.magenta, grape = colors.grape, green = colors.green, emerald = colors.emerald, sea = colors.sea, pistachio = colors.pistachio, sage = colors.sage, pear = colors.pear, lime = colors.lime, blue = colors.blue, lapis = colors.lapis, navy = colors.navy, indigo = colors.indigo, aegean = colors.aegean, ocean = colors.ocean, stone = colors.stone, slate = colors.slate, sky = colors.sky, brown = colors.brown, peanut = colors.peanut, gray = colors.gray, silver = colors.silver, dove = colors.dove, cream = colors.cream, snow = colors.snow, black = colors.black, white = colors.white;
+var red = colors.red, crimson = colors.crimson, grenadier = colors.grenadier, pink = colors.pink, rose = colors.rose, fuchsia = colors.fuchsia, peach = colors.peach, strawberry = colors.strawberry, orange = colors.orange, amber = colors.amber, tiger = colors.tiger, gold = colors.gold, yellow = colors.yellow, lemon = colors.lemon, purple = colors.purple, violet = colors.violet, lavender = colors.lavender, magenta = colors.magenta, grape = colors.grape, green = colors.green, emerald = colors.emerald, sea = colors.sea, pistachio = colors.pistachio, sage = colors.sage, pear = colors.pear, lime = colors.lime, blue = colors.blue, lapis = colors.lapis, navy = colors.navy, indigo = colors.indigo, aegean = colors.aegean, ocean = colors.ocean, stone = colors.stone, slate = colors.slate, sky = colors.sky, brown = colors.brown, peanut = colors.peanut, gray = colors.gray, silver = colors.silver, dove = colors.dove, cream = colors.cream, snow = colors.snow, black = colors.black, white = colors.white;
 exports.red = red;
 exports.crimson = crimson;
 exports.grenadier = grenadier;
 exports.pink = pink;
 exports.rose = rose;
-exports.fushcia = fushcia;
+exports.fuchsia = fuchsia;
 exports.peach = peach;
 exports.strawberry = strawberry;
 exports.orange = orange;
@@ -597,3 +596,4 @@ exports.cream = cream;
 exports.snow = snow;
 exports.black = black;
 exports.white = white;
+exports.default = colors;

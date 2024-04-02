@@ -55,9 +55,18 @@ To use our colors, simply add the following code to your project's CSS file:
 
 ```css
 @import "@flexful-ui/colors";
+```
 
+```css
 /* Now you can use the colors in your CSS */
 .element {
   background-color: var(--red-50);
   color: var(--blue-500);
 }
+```
+
+### Usage in JavaScript
+
+```javascript
+import colors from '@flexful-ui/colors';
+```

@@ -64,7 +64,7 @@ declare const colors: {
         900: string;
         950: string;
     };
-    fushcia: {
+    fuchsia: {
         50: string;
         100: string;
         200: string;
@@ -608,7 +608,7 @@ declare const red: {
     800: string;
     900: string;
     950: string;
-}, fushcia: {
+}, fuchsia: {
     50: string;
     100: string;
     200: string;
@@ -1053,4 +1053,5 @@ declare const red: {
     900: string;
     950: string;
 }, black: string, white: string;
-export { colors, red, crimson, grenadier, pink, rose, fushcia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };
+export default colors;
+export { red, crimson, grenadier, pink, rose, fuchsia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };
