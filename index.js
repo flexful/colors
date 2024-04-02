@@ -77,19 +77,6 @@ const colors = {
       900: '#320e22',
       950: '#190711'
     },
-    magneta: {
-      50: '#fce8f3',
-      100: '#f9d0e6',
-      200: '#f3a1ce',
-      300: '#ed73b5',
-      400: '#e7449d',
-      500: '#e11584',
-      600: '#b4116a',
-      700: '#870d4f',
-      800: '#5a0835',
-      900: '#2d041a',
-      950: '#16020d'
-    },
     peach: {
       50: '#fff4f3',
       100: '#feeae6',
@@ -568,7 +555,6 @@ export const grenadier = colors.grenadier;
 export const pink = colors.pink;
 export const rose = colors.rose;
 export const fushcia = colors.fushcia;
-export const magneta = colors.magneta;
 export const peach = colors.peach;
 export const strawberry = colors.strawberry;
 export const orange = colors.orange;
@@ -609,3 +595,5 @@ export const black = colors.black;
 export const white = colors.white;
 
 export default colors;
+
+export { red, crimson, grenadier, pink, rose, fushcia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white } from 'colors';
