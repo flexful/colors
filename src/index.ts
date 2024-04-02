@@ -549,6 +549,6 @@ const colors = {
     white: '#FFFFFF'
 };
 
-export default colors;
+const { red, crimson, grenadier, pink, rose, fushcia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white } = colors;
 
-export { red, crimson, grenadier, pink, rose, fushcia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white } from 'colors';
+export { colors, red, crimson, grenadier, pink, rose, fushcia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };

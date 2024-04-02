@@ -1,0 +1,15 @@
+@mixin generate-root-color-variables($colors) {
+    :root {
+        @each $name, $shades in $colors {
+            @if type-of($shades) == color {
+                --#{$name}: #{$shades};
+                --#{$name}-rgb: #{red($shades)}, #{green($shades)}, #{blue($shades)};
+            } @else {
+                @each $shade, $color in $shades {
+                    --#{$name}-#{$shade}: #{$color};
+                    --#{$name}-#{$shade}-rgb: #{red($color)}, #{green($color)}, #{blue($color)};
+                }
+            }
+        }
+    }
+}

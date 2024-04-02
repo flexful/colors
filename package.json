@@ -1,8 +1,13 @@
 {
   "name": "@flexful-ui/colors",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Colors for everyone!",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/olors.css",
+  "scripts": {
+    "build": "tsc && sass scss/colors.scss dist/colors.css"
+  },
   "author": {
     "name": "aepasahan.dev",
     "email": "aepasahan.dev@gmail.com",
@@ -15,5 +20,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "license": "AGPL-3.0-only"
+  "license": "AGPL-3.0-only",
+  "devDependencies": {
+    "typescript": "^5.4.3",
+    "sass": "^1.71.1"
+  }
 }
