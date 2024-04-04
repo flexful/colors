@@ -38,7 +38,7 @@ declare const colors: {
         900: string;
         950: string;
     };
-    pink: {
+    strawberry: {
         50: string;
         100: string;
         200: string;
@@ -52,6 +52,19 @@ declare const colors: {
         950: string;
     };
     rose: {
+        50: string;
+        100: string;
+        200: string;
+        300: string;
+        400: string;
+        500: string;
+        600: string;
+        700: string;
+        800: string;
+        900: string;
+        950: string;
+    };
+    pink: {
         50: string;
         100: string;
         200: string;
@@ -78,19 +91,6 @@ declare const colors: {
         950: string;
     };
     peach: {
-        50: string;
-        100: string;
-        200: string;
-        300: string;
-        400: string;
-        500: string;
-        600: string;
-        700: string;
-        800: string;
-        900: string;
-        950: string;
-    };
-    strawberry: {
         50: string;
         100: string;
         200: string;
@@ -181,6 +181,19 @@ declare const colors: {
         900: string;
         950: string;
     };
+    lavender: {
+        50: string;
+        100: string;
+        200: string;
+        300: string;
+        400: string;
+        500: string;
+        600: string;
+        700: string;
+        800: string;
+        900: string;
+        950: string;
+    };
     purple: {
         50: string;
         100: string;
@@ -195,19 +208,6 @@ declare const colors: {
         950: string;
     };
     violet: {
-        50: string;
-        100: string;
-        200: string;
-        300: string;
-        400: string;
-        500: string;
-        600: string;
-        700: string;
-        800: string;
-        900: string;
-        950: string;
-    };
-    lavender: {
         50: string;
         100: string;
         200: string;
@@ -415,32 +415,6 @@ declare const colors: {
         900: string;
         950: string;
     };
-    stone: {
-        50: string;
-        100: string;
-        200: string;
-        300: string;
-        400: string;
-        500: string;
-        600: string;
-        700: string;
-        800: string;
-        900: string;
-        950: string;
-    };
-    slate: {
-        50: string;
-        100: string;
-        200: string;
-        300: string;
-        400: string;
-        500: string;
-        600: string;
-        700: string;
-        800: string;
-        900: string;
-        950: string;
-    };
     sky: {
         50: string;
         100: string;
@@ -454,7 +428,7 @@ declare const colors: {
         900: string;
         950: string;
     };
-    brown: {
+    lightBlue: {
         50: string;
         100: string;
         200: string;
@@ -467,7 +441,7 @@ declare const colors: {
         900: string;
         950: string;
     };
-    peanut: {
+    stone: {
         50: string;
         100: string;
         200: string;
@@ -481,6 +455,19 @@ declare const colors: {
         950: string;
     };
     gray: {
+        50: string;
+        100: string;
+        200: string;
+        300: string;
+        400: string;
+        500: string;
+        600: string;
+        700: string;
+        800: string;
+        900: string;
+        950: string;
+    };
+    slate: {
         50: string;
         100: string;
         200: string;
@@ -519,7 +506,7 @@ declare const colors: {
         900: string;
         950: string;
     };
-    cream: {
+    coffee: {
         50: string;
         100: string;
         200: string;
@@ -532,7 +519,20 @@ declare const colors: {
         900: string;
         950: string;
     };
-    snow: {
+    brown: {
+        50: string;
+        100: string;
+        200: string;
+        300: string;
+        400: string;
+        500: string;
+        600: string;
+        700: string;
+        800: string;
+        900: string;
+        950: string;
+    };
+    peanut: {
         50: string;
         100: string;
         200: string;
@@ -584,7 +584,7 @@ declare const red: {
     800: string;
     900: string;
     950: string;
-}, pink: {
+}, strawberry: {
     50: string;
     100: string;
     200: string;
@@ -597,6 +597,18 @@ declare const red: {
     900: string;
     950: string;
 }, rose: {
+    50: string;
+    100: string;
+    200: string;
+    300: string;
+    400: string;
+    500: string;
+    600: string;
+    700: string;
+    800: string;
+    900: string;
+    950: string;
+}, pink: {
     50: string;
     100: string;
     200: string;
@@ -621,18 +633,6 @@ declare const red: {
     900: string;
     950: string;
 }, peach: {
-    50: string;
-    100: string;
-    200: string;
-    300: string;
-    400: string;
-    500: string;
-    600: string;
-    700: string;
-    800: string;
-    900: string;
-    950: string;
-}, strawberry: {
     50: string;
     100: string;
     200: string;
@@ -716,6 +716,18 @@ declare const red: {
     800: string;
     900: string;
     950: string;
+}, lavender: {
+    50: string;
+    100: string;
+    200: string;
+    300: string;
+    400: string;
+    500: string;
+    600: string;
+    700: string;
+    800: string;
+    900: string;
+    950: string;
 }, purple: {
     50: string;
     100: string;
@@ -729,18 +741,6 @@ declare const red: {
     900: string;
     950: string;
 }, violet: {
-    50: string;
-    100: string;
-    200: string;
-    300: string;
-    400: string;
-    500: string;
-    600: string;
-    700: string;
-    800: string;
-    900: string;
-    950: string;
-}, lavender: {
     50: string;
     100: string;
     200: string;
@@ -932,30 +932,6 @@ declare const red: {
     800: string;
     900: string;
     950: string;
-}, stone: {
-    50: string;
-    100: string;
-    200: string;
-    300: string;
-    400: string;
-    500: string;
-    600: string;
-    700: string;
-    800: string;
-    900: string;
-    950: string;
-}, slate: {
-    50: string;
-    100: string;
-    200: string;
-    300: string;
-    400: string;
-    500: string;
-    600: string;
-    700: string;
-    800: string;
-    900: string;
-    950: string;
 }, sky: {
     50: string;
     100: string;
@@ -968,7 +944,7 @@ declare const red: {
     800: string;
     900: string;
     950: string;
-}, brown: {
+}, lightBlue: {
     50: string;
     100: string;
     200: string;
@@ -980,7 +956,7 @@ declare const red: {
     800: string;
     900: string;
     950: string;
-}, peanut: {
+}, stone: {
     50: string;
     100: string;
     200: string;
@@ -993,6 +969,18 @@ declare const red: {
     900: string;
     950: string;
 }, gray: {
+    50: string;
+    100: string;
+    200: string;
+    300: string;
+    400: string;
+    500: string;
+    600: string;
+    700: string;
+    800: string;
+    900: string;
+    950: string;
+}, slate: {
     50: string;
     100: string;
     200: string;
@@ -1028,7 +1016,7 @@ declare const red: {
     800: string;
     900: string;
     950: string;
-}, cream: {
+}, coffee: {
     50: string;
     100: string;
     200: string;
@@ -1040,7 +1028,19 @@ declare const red: {
     800: string;
     900: string;
     950: string;
-}, snow: {
+}, brown: {
+    50: string;
+    100: string;
+    200: string;
+    300: string;
+    400: string;
+    500: string;
+    600: string;
+    700: string;
+    800: string;
+    900: string;
+    950: string;
+}, peanut: {
     50: string;
     100: string;
     200: string;
@@ -1054,4 +1054,4 @@ declare const red: {
     950: string;
 }, black: string, white: string;
 export default colors;
-export { red, crimson, grenadier, pink, rose, fuchsia, peach, strawberry, orange, amber, tiger, gold, yellow, lemon, purple, violet, lavender, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, stone, slate, sky, brown, peanut, gray, silver, dove, cream, snow, black, white };
+export { red, crimson, grenadier, strawberry, rose, pink, fuchsia, peach, orange, amber, tiger, gold, yellow, lemon, lavender, purple, violet, magenta, grape, green, emerald, sea, pistachio, sage, pear, lime, blue, lapis, navy, indigo, aegean, ocean, sky, lightBlue, stone, gray, slate, silver, dove, coffee, brown, peanut, black, white };

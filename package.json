@@ -1,6 +1,6 @@
 {
   "name": "@flexful-ui/colors",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Colors for everyone!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.4.3",
     "sass": "^1.71.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flexful-ui/colors.git"
   }
 }

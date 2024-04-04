@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.white = exports.black = exports.snow = exports.cream = exports.dove = exports.silver = exports.gray = exports.peanut = exports.brown = exports.sky = exports.slate = exports.stone = exports.ocean = exports.aegean = exports.indigo = exports.navy = exports.lapis = exports.blue = exports.lime = exports.pear = exports.sage = exports.pistachio = exports.sea = exports.emerald = exports.green = exports.grape = exports.magenta = exports.lavender = exports.violet = exports.purple = exports.lemon = exports.yellow = exports.gold = exports.tiger = exports.amber = exports.orange = exports.strawberry = exports.peach = exports.fuchsia = exports.rose = exports.pink = exports.grenadier = exports.crimson = exports.red = void 0;
+exports.white = exports.black = exports.peanut = exports.brown = exports.coffee = exports.dove = exports.silver = exports.slate = exports.gray = exports.stone = exports.lightBlue = exports.sky = exports.ocean = exports.aegean = exports.indigo = exports.navy = exports.lapis = exports.blue = exports.lime = exports.pear = exports.sage = exports.pistachio = exports.sea = exports.emerald = exports.green = exports.grape = exports.magenta = exports.violet = exports.purple = exports.lavender = exports.lemon = exports.yellow = exports.gold = exports.tiger = exports.amber = exports.orange = exports.peach = exports.fuchsia = exports.pink = exports.rose = exports.strawberry = exports.grenadier = exports.crimson = exports.red = void 0;
 var colors = {
     red: {
         50: '#ffe6e6',
@@ -9,11 +9,11 @@ var colors = {
         300: '#fe6666',
         400: '#fe3333',
         500: '#fe0000',
-        600: '#cb0000',
-        700: '#980000',
-        800: '#660000',
-        900: '#330000',
-        950: '#190000'
+        600: '#e50000',
+        700: '#b20000',
+        800: '#7f0000',
+        900: '#4c0000',
+        950: '#190000',
     },
     crimson: {
         50: '#f8e7e7',
@@ -22,11 +22,11 @@ var colors = {
         300: '#d46f6c',
         400: '#c63f3b',
         500: '#b80f0a',
-        600: '#930c08',
-        700: '#6e0906',
-        800: '#4a0604',
-        900: '#250302',
-        950: '#120101'
+        600: '#a60e09',
+        700: '#810b07',
+        800: '#5c0805',
+        900: '#370503',
+        950: '#120101',
     },
     grenadier: {
         50: '#f8eceb',
@@ -35,63 +35,11 @@ var colors = {
         300: '#d68e86',
         400: '#c9695e',
         500: '#bb4336',
-        600: '#96362b',
-        700: '#702820',
-        800: '#4b1b16',
-        900: '#250d0b',
-        950: '#130705'
-    },
-    pink: {
-        50: '#fef5fa',
-        100: '#fdebf5',
-        200: '#fbd7eb',
-        300: '#fac2e1',
-        400: '#f8aed7',
-        500: '#f69acd',
-        600: '#c57ba4',
-        700: '#945c7b',
-        800: '#623e52',
-        900: '#311f29',
-        950: '#190f14'
-    },
-    rose: {
-        50: '#fff4f7',
-        100: '#feeaef',
-        200: '#fed4de',
-        300: '#fdbfce',
-        400: '#fda9bd',
-        500: '#fc94ad',
-        600: '#ca768a',
-        700: '#975968',
-        800: '#653b45',
-        900: '#321e23',
-        950: '#190f11'
-    },
-    fuchsia: {
-        50: '#ffedf7',
-        100: '#fedaee',
-        200: '#feb5dd',
-        300: '#fd90cc',
-        400: '#fd6bbb',
-        500: '#fc46aa',
-        600: '#ca3888',
-        700: '#972a66',
-        800: '#651c44',
-        900: '#320e22',
-        950: '#190711'
-    },
-    peach: {
-        50: '#fff4f3',
-        100: '#feeae6',
-        200: '#fdd4cd',
-        300: '#fdbfb5',
-        400: '#fca99c',
-        500: '#fb9483',
-        600: '#c97669',
-        700: '#97594f',
-        800: '#643b34',
-        900: '#321e1a',
-        950: '#190f0d'
+        600: '#a83c31',
+        700: '#832f26',
+        800: '#5e221b',
+        900: '#381410',
+        950: '#130705',
     },
     strawberry: {
         50: '#ffeded',
@@ -100,11 +48,63 @@ var colors = {
         300: '#fd9495',
         400: '#fd7071',
         500: '#fc4c4e',
-        600: '#ca3d3e',
-        700: '#972e2f',
-        800: '#651e1f',
-        900: '#320f10',
-        950: '#190808'
+        600: '#e34446',
+        700: '#b03537',
+        800: '#7e2627',
+        900: '#4c1717',
+        950: '#190808',
+    },
+    rose: {
+        50: '#fff4f7',
+        100: '#feeaef',
+        200: '#fed4de',
+        300: '#fdbfce',
+        400: '#fda9bd',
+        500: '#fc94ad',
+        600: '#e3859c',
+        700: '#b06879',
+        800: '#7e4a57',
+        900: '#4c2c34',
+        950: '#190f11',
+    },
+    pink: {
+        50: '#fef5fa',
+        100: '#fdebf5',
+        200: '#fbd7eb',
+        300: '#fac2e1',
+        400: '#f8aed7',
+        500: '#f69acd',
+        600: '#dd8bb9',
+        700: '#ac6c90',
+        800: '#7b4d67',
+        900: '#4a2e3e',
+        950: '#190f14',
+    },
+    fuchsia: {
+        50: '#ffedf7',
+        100: '#fedaee',
+        200: '#feb5dd',
+        300: '#fd90cc',
+        400: '#fd6bbb',
+        500: '#fc46aa',
+        600: '#e33f99',
+        700: '#b03177',
+        800: '#7e2355',
+        900: '#4c1533',
+        950: '#190711',
+    },
+    peach: {
+        50: '#fff4f3',
+        100: '#feeae6',
+        200: '#fdd4cd',
+        300: '#fdbfb5',
+        400: '#fca99c',
+        500: '#fb9483',
+        600: '#e28576',
+        700: '#b0685c',
+        800: '#7e4a42',
+        900: '#4b2c27',
+        950: '#190f0d',
     },
     orange: {
         50: '#fdf1e8',
@@ -113,11 +113,11 @@ var colors = {
         300: '#f4a972',
         400: '#f18d43',
         500: '#ed7014',
-        600: '#be5a10',
-        700: '#8e430c',
-        800: '#5f2d08',
-        900: '#2f1604',
-        950: '#180b02'
+        600: '#d56512',
+        700: '#a64e0e',
+        800: '#77380a',
+        900: '#472206',
+        950: '#180b02',
     },
     amber: {
         50: '#f3eae6',
@@ -126,11 +126,11 @@ var colors = {
         300: '#b88367',
         400: '#a15a34',
         500: '#893101',
-        600: '#6e2701',
-        700: '#521d01',
-        800: '#371400',
-        900: '#1b0a00',
-        950: '#0e0500'
+        600: '#7b2c01',
+        700: '#602201',
+        800: '#451901',
+        900: '#290f00',
+        950: '#0e0500',
     },
     tiger: {
         50: '#fff0e6',
@@ -139,11 +139,11 @@ var colors = {
         300: '#fda667',
         400: '#fd8935',
         500: '#fc6b02',
-        600: '#ca5602',
-        700: '#974001',
-        800: '#652b01',
-        900: '#321500',
-        950: '#190b00'
+        600: '#e36002',
+        700: '#b04b01',
+        800: '#7e3601',
+        900: '#4c2001',
+        950: '#190b00',
     },
     gold: {
         50: '#fef6e6',
@@ -152,11 +152,11 @@ var colors = {
         300: '#fbca67',
         400: '#fab835',
         500: '#f9a602',
-        600: '#c78502',
-        700: '#956401',
-        800: '#644201',
-        900: '#322100',
-        950: '#191100'
+        600: '#e09502',
+        700: '#ae7401',
+        800: '#7d5301',
+        900: '#4b3201',
+        950: '#191100',
     },
     yellow: {
         50: '#fffaea',
@@ -165,11 +165,11 @@ var colors = {
         300: '#fde37f',
         400: '#fdda55',
         500: '#fcd12a',
-        600: '#caa722',
-        700: '#977d19',
-        800: '#655411',
-        900: '#322a08',
-        950: '#191504'
+        600: '#e3bc26',
+        700: '#b0921d',
+        800: '#7e6915',
+        900: '#4c3f0d',
+        950: '#191504',
     },
     lemon: {
         50: '#fdffef',
@@ -178,37 +178,11 @@ var colors = {
         300: '#f5fe9f',
         400: '#f2fd7f',
         500: '#effd5f',
-        600: '#bfca4c',
-        700: '#8f9839',
-        800: '#606526',
-        900: '#303313',
-        950: '#181909'
-    },
-    purple: {
-        50: '#f6eaf9',
-        100: '#edd5f3',
-        200: '#daabe7',
-        300: '#c880dc',
-        400: '#b556d0',
-        500: '#a32cc4',
-        600: '#82239d',
-        700: '#621a76',
-        800: '#41124e',
-        900: '#210927',
-        950: '#100414'
-    },
-    violet: {
-        50: '#f1e6f4',
-        100: '#e3cce9',
-        200: '#c699d4',
-        300: '#aa67be',
-        400: '#8d34a9',
-        500: '#710193',
-        600: '#5a0176',
-        700: '#440158',
-        800: '#2d003b',
-        900: '#17001d',
-        950: '#0b000f'
+        600: '#d7e456',
+        700: '#a7b143',
+        800: '#787f30',
+        900: '#484c1d',
+        950: '#181909',
     },
     lavender: {
         50: '#fcf5fe',
@@ -217,11 +191,37 @@ var colors = {
         300: '#eec5fa',
         400: '#e8b2f8',
         500: '#e29ff6',
-        600: '#b57fc5',
-        700: '#885f94',
-        800: '#5a4062',
-        900: '#2d2031',
-        950: '#171019'
+        600: '#cb8fdd',
+        700: '#9e6fac',
+        800: '#71507b',
+        900: '#44304a',
+        950: '#171019',
+    },
+    purple: {
+        50: '#f6eaf9',
+        100: '#edd5f3',
+        200: '#daabe7',
+        300: '#c880dc',
+        400: '#b556d0',
+        500: '#a32cc4',
+        600: '#9328b0',
+        700: '#721f89',
+        800: '#521662',
+        900: '#310d3b',
+        950: '#100414',
+    },
+    violet: {
+        50: '#f1e6f4',
+        100: '#e3cce9',
+        200: '#c699d4',
+        300: '#aa67be',
+        400: '#8d34a9',
+        500: '#710193',
+        600: '#660184',
+        700: '#4f0167',
+        800: '#39014a',
+        900: '#22002c',
+        950: '#0b000f',
     },
     magenta: {
         50: '#f6e6ee',
@@ -230,11 +230,11 @@ var colors = {
         300: '#c7699b',
         400: '#b4377a',
         500: '#a10559',
-        600: '#810447',
-        700: '#610335',
-        800: '#400224',
-        900: '#200112',
-        950: '#100009'
+        600: '#910550',
+        700: '#71043e',
+        800: '#51032d',
+        900: '#30021b',
+        950: '#100009',
     },
     grape: {
         50: '#f0eaed',
@@ -243,11 +243,11 @@ var colors = {
         300: '#a38391',
         400: '#85596c',
         500: '#663047',
-        600: '#522639',
-        700: '#3d1d2b',
-        800: '#29131c',
-        900: '#140a0e',
-        950: '#0a0507'
+        600: '#5c2b40',
+        700: '#472232',
+        800: '#331824',
+        900: '#1f0e15',
+        950: '#0a0507',
     },
     green: {
         50: '#ebf7ec',
@@ -256,11 +256,11 @@ var colors = {
         300: '#89d08e',
         400: '#62c169',
         500: '#3bb143',
-        600: '#2f8e36',
-        700: '#236a28',
-        800: '#18471b',
-        900: '#0c230d',
-        950: '#061207'
+        600: '#359f3c',
+        700: '#297c2f',
+        800: '#1e5922',
+        900: '#123514',
+        950: '#061207',
     },
     emerald: {
         50: '#e6f3e7',
@@ -269,11 +269,11 @@ var colors = {
         300: '#67b870',
         400: '#35a140',
         500: '#028910',
-        600: '#026e0d',
-        700: '#01520a',
-        800: '#013706',
-        900: '#001b03',
-        950: '#000e02'
+        600: '#027b0e',
+        700: '#01600b',
+        800: '#014508',
+        900: '#012905',
+        950: '#000e02',
     },
     sea: {
         50: '#ecfdf5',
@@ -282,11 +282,11 @@ var colors = {
         300: '#8af4c1',
         400: '#63f0ac',
         500: '#3cec97',
-        600: '#30bd79',
-        700: '#248e5b',
-        800: '#185e3c',
-        900: '#0c2f1e',
-        950: '#06180f'
+        600: '#36d488',
+        700: '#2aa56a',
+        800: '#1e764c',
+        900: '#12472d',
+        950: '#06180f',
     },
     pistachio: {
         50: '#f7fbf9',
@@ -295,11 +295,11 @@ var colors = {
         300: '#d1e5da',
         400: '#c1dcce',
         500: '#b2d3c2',
-        600: '#8ea99b',
-        700: '#6b7f74',
-        800: '#47544e',
-        900: '#242a27',
-        950: '#121513'
+        600: '#a0beaf',
+        700: '#7d9488',
+        800: '#596a61',
+        900: '#353f3a',
+        950: '#121513',
     },
     sage: {
         50: '#f1f4f0',
@@ -308,11 +308,11 @@ var colors = {
         300: '#aabaa5',
         400: '#8ea387',
         500: '#728c69',
-        600: '#5b7054',
-        700: '#44543f',
-        800: '#2e382a',
-        900: '#171c15',
-        950: '#0b0e0a'
+        600: '#677e5f',
+        700: '#50624a',
+        800: '#394635',
+        900: '#222a20',
+        950: '#0b0e0a',
     },
     pear: {
         50: '#f1f8ea',
@@ -321,11 +321,11 @@ var colors = {
         300: '#acd380',
         400: '#90c556',
         500: '#74b62c',
-        600: '#5d9223',
-        700: '#466d1a',
-        800: '#2e4912',
-        900: '#172409',
-        950: '#0c1204'
+        600: '#68a428',
+        700: '#517f1f',
+        800: '#3a5b16',
+        900: '#23370d',
+        950: '#0c1204',
     },
     lime: {
         50: '#f7feef',
@@ -334,11 +334,11 @@ var colors = {
         300: '#cef89c',
         400: '#bef57b',
         500: '#aef35a',
-        600: '#8bc248',
-        700: '#689236',
-        800: '#466124',
-        900: '#233112',
-        950: '#111809'
+        600: '#9ddb51',
+        700: '#7aaa3f',
+        800: '#577a2d',
+        900: '#34491b',
+        950: '#111809',
     },
     blue: {
         50: '#ebecf8',
@@ -347,11 +347,11 @@ var colors = {
         300: '#898ed6',
         400: '#6169c8',
         500: '#3a43ba',
-        600: '#2e3695',
-        700: '#232870',
-        800: '#171b4a',
-        900: '#0c0d25',
-        950: '#060713'
+        600: '#343ca7',
+        700: '#292f82',
+        800: '#1d225d',
+        900: '#111438',
+        950: '#060713',
     },
     lapis: {
         50: '#e9ebf9',
@@ -360,11 +360,11 @@ var colors = {
         300: '#7d84da',
         400: '#525bce',
         500: '#2732c2',
-        600: '#1f289b',
-        700: '#171e74',
-        800: '#10144e',
-        900: '#080a27',
-        950: '#040513'
+        600: '#232daf',
+        700: '#1b2388',
+        800: '#141961',
+        900: '#0c0f3a',
+        950: '#040513',
     },
     navy: {
         50: '#e7e7f1',
@@ -373,11 +373,11 @@ var colors = {
         300: '#6d70aa',
         400: '#3c418d',
         500: '#0b1171',
-        600: '#090e5a',
-        700: '#070a44',
-        800: '#04072d',
-        900: '#020317',
-        950: '#01020b'
+        600: '#0a0f66',
+        700: '#080c4f',
+        800: '#060939',
+        900: '#030522',
+        950: '#01020b',
     },
     indigo: {
         50: '#eae9ef',
@@ -386,11 +386,11 @@ var colors = {
         300: '#7e789e',
         400: '#534b7d',
         500: '#281e5d',
-        600: '#20184a',
-        700: '#181238',
-        800: '#100c25',
-        900: '#080613',
-        950: '#040309'
+        600: '#241b54',
+        700: '#1c1541',
+        800: '#140f2f',
+        900: '#0c091c',
+        950: '#040309',
     },
     aegean: {
         50: '#e9ecf1',
@@ -399,50 +399,24 @@ var colors = {
         300: '#788fa8',
         400: '#4b6a8b',
         500: '#1e456e',
-        600: '#183758',
-        700: '#122942',
-        800: '#0c1c2c',
-        900: '#060e16',
-        950: '#03070b'
+        600: '#1b3e63',
+        700: '#15304d',
+        800: '#0f2337',
+        900: '#091521',
+        950: '#03070b',
     },
     ocean: {
         50: '#e6eff0',
         100: '#ccdfe0',
-        200: '#99bfc1',
+        200: '#ccdfe0',
         300: '#67a0a2',
         400: '#348083',
         500: '#016064',
-        600: '#014d50',
-        700: '#013a3c',
-        800: '#002628',
-        900: '#001314',
-        950: '#000a0a'
-    },
-    stone: {
-        50: '#eef2f4',
-        100: '#dee4e8',
-        200: '#bdc9d1',
-        300: '#9baebb',
-        400: '#7a93a4',
-        500: '#59788d',
-        600: '#476071',
-        700: '#354855',
-        800: '#243038',
-        900: '#12181c',
-        950: '#090c0e'
-    },
-    slate: {
-        50: '#f1f2f3',
-        100: '#e3e5e7',
-        200: '#c8cacf',
-        300: '#acb0b7',
-        400: '#91959f',
-        500: '#757b87',
-        600: '#5e626c',
-        700: '#464a51',
-        800: '#2f3136',
-        900: '#17191b',
-        950: '#0c0c0d'
+        600: '#01565a',
+        700: '#014346',
+        800: '#013032',
+        900: '#001d1e',
+        950: '#000a0a',
     },
     sky: {
         50: '#eff9fb',
@@ -451,50 +425,63 @@ var colors = {
         300: '#a1dce9',
         400: '#81d1e1',
         500: '#62c5da',
-        600: '#4e9eae',
-        700: '#3b7683',
-        800: '#274f57',
-        900: '#14272c',
-        950: '#0a1416'
+        600: '#58b1c4',
+        700: '#458a99',
+        800: '#31636d',
+        900: '#1d3b41',
+        950: '#0a1416',
     },
-    brown: {
-        50: '#eae8e6',
-        100: '#d5d0cd',
-        200: '#aba19a',
-        300: '#807368',
-        400: '#564435',
-        500: '#2c1503',
-        600: '#231102',
-        700: '#1a0d02',
-        800: '#120801',
-        900: '#090401',
-        950: '#040200'
+    lightBlue: {
+        50: '#e6f4f9',
+        100: '#cde9f3',
+        200: '#9bd3e7',
+        300: '#68beda',
+        400: '#36a8ce',
+        500: '#0492c2',
+        600: '#0483af',
+        700: '#036688',
+        800: '#024961',
+        900: '#012c3a',
+        950: '#000f13',
     },
-    peanut: {
-        50: '#f2efeb',
-        100: '#e4ded6',
-        200: '#c9beae',
-        300: '#af9d85',
-        400: '#947d5d',
-        500: '#795c34',
-        600: '#614a2a',
-        700: '#49371f',
-        800: '#302515',
-        900: '#18120a',
-        950: '#0c0905'
+    stone: {
+        50: '#eef2f4',
+        100: '#dee4e8',
+        200: '#bdc9d1',
+        300: '#9caeb9',
+        400: '#7b93a1',
+        500: '#5a7889',
+        600: '#506c7f',
+        700: '#3e5463',
+        800: '#2d3c47',
+        900: '#1b242a',
+        950: '#0c1115',
     },
     gray: {
-        50: '#f9f9fa',
-        100: '#f4f4f6',
-        200: '#e8e8ec',
-        300: '#dddde3',
-        400: '#d1d1d9',
-        500: '#c6c6d0',
-        600: '#9e9ea6',
-        700: '#77777d',
-        800: '#4f4f53',
-        900: '#28282a',
-        950: '#141415'
+        50: '#f2f2f2',
+        100: '#e6e6e6',
+        200: '#cccccc',
+        300: '#b3b3b3',
+        400: '#999999',
+        500: '#808080',
+        600: '#666666',
+        700: '#4d4d4d',
+        800: '#333333',
+        900: '#1a1a1a',
+        950: '#0d0d0d',
+    },
+    slate: {
+        50: '#f1f2f3',
+        100: '#e3e5e7',
+        200: '#c8cacf',
+        300: '#acb0b7',
+        400: '#91959f',
+        500: '#757b87',
+        600: '#696f7a',
+        700: '#52565f',
+        800: '#3b3e44',
+        900: '#232529',
+        950: '#0c0c0d',
     },
     silver: {
         50: '#f7f7f9',
@@ -503,11 +490,11 @@ var colors = {
         300: '#cecedd',
         400: '#bdbdd2',
         500: '#adadc7',
-        600: '#8a8a9f',
-        700: '#686877',
-        800: '#454550',
-        900: '#232328',
-        950: '#111114'
+        600: '#9c9cb3',
+        700: '#79798b',
+        800: '#575764',
+        900: '#34343c',
+        950: '#111114',
     },
     dove: {
         50: '#f2f1f2',
@@ -516,59 +503,72 @@ var colors = {
         300: '#b0a8b2',
         400: '#968b99',
         500: '#7c6e7f',
-        600: '#635866',
-        700: '#4a424c',
-        800: '#322c33',
-        900: '#191619',
-        950: '#0c0b0d'
+        600: '#706372',
+        700: '#574d59',
+        800: '#3e3740',
+        900: '#252126',
+        950: '#0c0b0d',
     },
-    cream: {
-        50: '#fffffb',
-        100: '#fffef8',
-        200: '#fffdf0',
-        300: '#fffce9',
-        400: '#fffbe1',
-        500: '#fffada',
-        600: '#ccc8ae',
-        700: '#999683',
-        800: '#666457',
-        900: '#33322c',
-        950: '#191916'
+    coffee: {
+        50: '#edebe8',
+        100: '#dbd7d2',
+        200: '#b7afa4',
+        300: '#938777',
+        400: '#6f5f49',
+        500: '#4b371c',
+        600: '#443219',
+        700: '#352714',
+        800: '#261c0e',
+        900: '#171108',
+        950: '#070503',
     },
-    snow: {
-        50: '#fdffff',
-        100: '#fbfefe',
-        200: '#f7fefe',
-        300: '#f4fdfd',
-        400: '#f0fdfd',
-        500: '#ecfcfc',
-        600: '#bdcaca',
-        700: '#8e9797',
-        800: '#5e6565',
-        900: '#2f3232',
-        950: '#181919'
+    brown: {
+        50: '#f9f4f0',
+        100: '#f3e9e1',
+        200: '#e5c8b6',
+        300: '#d5a68a',
+        400: '#c4855f',
+        500: '#b56433',
+        600: '#a35a2e',
+        700: '#7f4624',
+        800: '#5b321a',
+        900: '#361e0f',
+        950: '#120a05',
+    },
+    peanut: {
+        50: '#f9f6f0',
+        100: '#f2edd9',
+        200: '#e5d3ab',
+        300: '#d8b87c',
+        400: '#cb9d4e',
+        500: '#be8220',
+        600: '#ab751d',
+        700: '#855b16',
+        800: '#5f4110',
+        900: '#39270a',
+        950: '#160d01',
     },
     black: '#000000',
-    white: '#FFFFFF'
+    white: '#ffffff'
 };
-var red = colors.red, crimson = colors.crimson, grenadier = colors.grenadier, pink = colors.pink, rose = colors.rose, fuchsia = colors.fuchsia, peach = colors.peach, strawberry = colors.strawberry, orange = colors.orange, amber = colors.amber, tiger = colors.tiger, gold = colors.gold, yellow = colors.yellow, lemon = colors.lemon, purple = colors.purple, violet = colors.violet, lavender = colors.lavender, magenta = colors.magenta, grape = colors.grape, green = colors.green, emerald = colors.emerald, sea = colors.sea, pistachio = colors.pistachio, sage = colors.sage, pear = colors.pear, lime = colors.lime, blue = colors.blue, lapis = colors.lapis, navy = colors.navy, indigo = colors.indigo, aegean = colors.aegean, ocean = colors.ocean, stone = colors.stone, slate = colors.slate, sky = colors.sky, brown = colors.brown, peanut = colors.peanut, gray = colors.gray, silver = colors.silver, dove = colors.dove, cream = colors.cream, snow = colors.snow, black = colors.black, white = colors.white;
+var red = colors.red, crimson = colors.crimson, grenadier = colors.grenadier, strawberry = colors.strawberry, rose = colors.rose, pink = colors.pink, fuchsia = colors.fuchsia, peach = colors.peach, orange = colors.orange, amber = colors.amber, tiger = colors.tiger, gold = colors.gold, yellow = colors.yellow, lemon = colors.lemon, lavender = colors.lavender, purple = colors.purple, violet = colors.violet, magenta = colors.magenta, grape = colors.grape, green = colors.green, emerald = colors.emerald, sea = colors.sea, pistachio = colors.pistachio, sage = colors.sage, pear = colors.pear, lime = colors.lime, blue = colors.blue, lapis = colors.lapis, navy = colors.navy, indigo = colors.indigo, aegean = colors.aegean, ocean = colors.ocean, sky = colors.sky, lightBlue = colors.lightBlue, stone = colors.stone, gray = colors.gray, slate = colors.slate, silver = colors.silver, dove = colors.dove, coffee = colors.coffee, brown = colors.brown, peanut = colors.peanut, black = colors.black, white = colors.white;
 exports.red = red;
 exports.crimson = crimson;
 exports.grenadier = grenadier;
-exports.pink = pink;
+exports.strawberry = strawberry;
 exports.rose = rose;
+exports.pink = pink;
 exports.fuchsia = fuchsia;
 exports.peach = peach;
-exports.strawberry = strawberry;
 exports.orange = orange;
 exports.amber = amber;
 exports.tiger = tiger;
 exports.gold = gold;
 exports.yellow = yellow;
 exports.lemon = lemon;
+exports.lavender = lavender;
 exports.purple = purple;
 exports.violet = violet;
-exports.lavender = lavender;
 exports.magenta = magenta;
 exports.grape = grape;
 exports.green = green;
@@ -584,16 +584,16 @@ exports.navy = navy;
 exports.indigo = indigo;
 exports.aegean = aegean;
 exports.ocean = ocean;
-exports.stone = stone;
-exports.slate = slate;
 exports.sky = sky;
-exports.brown = brown;
-exports.peanut = peanut;
+exports.lightBlue = lightBlue;
+exports.stone = stone;
 exports.gray = gray;
+exports.slate = slate;
 exports.silver = silver;
 exports.dove = dove;
-exports.cream = cream;
-exports.snow = snow;
+exports.coffee = coffee;
+exports.brown = brown;
+exports.peanut = peanut;
 exports.black = black;
 exports.white = white;
 exports.default = colors;
